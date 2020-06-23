@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Navbar from './Navbar/Navbar.js'
+import Home from './Home/Home.js'
 import './App.css';
 
 function App() {
@@ -8,15 +9,13 @@ function App() {
     <div>
       <Navbar/>
       <Switch>
-          <Route>
-
-
-          </Route>
-
-
-
+          <Route exact path='/'  component={Home} />
+          {/* <Route path='/'  component={} /> */}
+          {/* <Route path='/'  component={} /> */}
+          {/* <Route path='/'  component={} /> */}
+          {/* <Route path='/'  component={} /> */}
+          
       </Switch>
-      Sup
     </div>
   );
 }
