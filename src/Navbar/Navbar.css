@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.425);
+}
+
+.logo {
+  height: 45pt;
+
+}
+
+
+.navItems {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    margin-top: 12pt;
+    transition: ease-out;
+    transition-duration: 400ms;
+}
+
+.navItems:hover {
+    color: #FFE403;
+    transition: ease-in;
+    transition-duration: 200ms;
+}
+
+@media (max-width: 320px) {
+    .logo {
+        font-size: 12pt
+    }
+    .navItems{
+        font-size: 12pt
+    }
+}
