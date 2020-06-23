@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import './Home.css'
 
 class Home extends Component {
     render() {
         return (
             <div>
-                Hello My Freinds!Bitches
+                <div className='homePageMain'>
+                    
+                </div>
+
+                <div className='secondHomePage'>
+                    Hello
+                </div>
             </div>
         );
     }
