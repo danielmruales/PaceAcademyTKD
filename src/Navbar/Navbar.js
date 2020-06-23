@@ -8,6 +8,7 @@ const Nabar = (props) => {
         <div className='nav'>
             
             {/* <Link to='/'><img src={logo} alt='logo' className='logo'/></Link> */}
+            <Link to='/' className='navItems'>LogoGoesHere</Link>
             <Link to='/projects' className='navItems'>Projects</Link>
             <Link to='/resume' className='navItems'>Resume</Link>
             <Link to='/about' className='navItems'>About</Link>
