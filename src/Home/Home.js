@@ -11,7 +11,7 @@ class Home extends Component {
                     <h2 className='heroPicTitle'>Pace Academy Taekwondo</h2>
                     <h1 className='heroPicSubTitle'>Creating 
                     Opportunity</h1>
-                    <Link className='homeJoinBtn'>Join Now</Link>
+                    <Link to='/joinnow' className='homeJoinBtn'>Join Now</Link>
                    </div>
                 </div>
                 <div className='section1'>
