@@ -2,18 +2,16 @@
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    background-color: rgba(128, 128, 128, 0.425);
 }
 
 .logo {
   height: 45pt;
-
 }
 
 
 .navItems {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 15pt;
     margin-top: 12pt;
     transition: ease-out;
