@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import './Home.css'
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
     render() {
         return (
             <div>
                 <div className='heroImage'>
-                   What is up? 
+                   <div className='heroImageMsg'>
+                    <h2 className='heroPicTitle'>Pace Academy Taekwondo</h2>
+                    <h1 className='heroPicSubTitle'>Creating 
+                    Opportunity</h1>
+                    <Link className='homeJoinBtn'>Join Now</Link>
+                   </div>
                 </div>
                 <div className='section1'>
                     <h1 className='sec1Title1'>

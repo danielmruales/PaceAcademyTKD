@@ -16,3 +16,33 @@
     text-transform: uppercase;
     font-size: 65px;
 }
+
+
+
+.heroImageMsg {
+    color: #E5B02C;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; 
+}
+
+.heroPicTitle {
+    color: blueviolet;
+    margin: 0;
+}
+
+.heroPicSubTitle {
+    color: chartreuse;
+    margin: 0;
+    font-size: 75px;
+}
+
+.homeJoinBtn {
+    text-decoration: none;
+    color: rgb(35, 247, 98);
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 3px;
+}
